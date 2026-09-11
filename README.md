@@ -40,6 +40,13 @@ Flaw: this is usually the hardest part of the whole project. There's no big publ
 Easy web based labeling plus augmentation, and it exports straight to YOLO or TFLite formats.
 Flaw: the free tier has limits, and exported formats sometimes need reformatting to fit your specific model.
 
+### 6. Target Market 
+**Cat Lover**
+Mostly are Cat Lover who have cat or found a cat beside the road and want to check if the cat is alright or not.
+
+**Animal Lover**
+No need to talk about it since Animal Lover love animal right?
+
 ## Core Project Flaws Worth Flagging in the Proposal
 It's actually a good idea to name these honestly, since it shows you've thought through the limitations rather than ignoring them.
 
