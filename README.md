@@ -51,6 +51,3 @@ Most contributed cat photos will probably be of normal weight cats, with very fe
 
 **No fixed reference scale in photos**
 Without something like a ruler or a known sized object in frame, measuring actual size from a photo isn't very reliable. Only relative classification (like underweight, normal, overweight) tends to work well without that reference.
-
-## Other Title Ideas (for reference)
-PurrScan: A Mobile Application for Cat Weight Condition Assessment Using Computer Vision
