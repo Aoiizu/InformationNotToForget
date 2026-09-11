@@ -1,11 +1,6 @@
 # Title : Feline Body Condition Classification Using Mobile Deep Learning
 
-## Tools to Consider (by role)
-
-### 1. Model Training / Framework
-**TensorFlow / Keras**
-Good docs, easy to convert to TFLite for mobile.
-Flaw: it's heavier and slower to iterate with than PyTorch when you're still experimenting.
+## Tools to Consider 
 
 **PyTorch**
 More intuitive if you're doing a lot of research style experimenting.
@@ -45,6 +40,9 @@ Flaw: this is usually the hardest part of the whole project. There's no big publ
 Easy web based labeling plus augmentation, and it exports straight to YOLO or TFLite formats.
 Flaw: the free tier has limits, and exported formats sometimes need reformatting to fit your specific model.
 
+## Core Project Flaws Worth Flagging in the Proposal
+It's actually a good idea to name these honestly, since it shows you've thought through the limitations rather than ignoring them.
+
 **No reliable ground truth**
 Body condition scoring in real veterinary practice usually involves palpation, meaning actually feeling the ribs and fat under the fur, not just looking at the cat. So an image only ML approach has a real accuracy ceiling. Long haired or fluffy cats might look heavier than they actually are. It's worth mentioning this upfront as a scope limitation.
 
@@ -54,7 +52,5 @@ Most contributed cat photos will probably be of normal weight cats, with very fe
 **No fixed reference scale in photos**
 Without something like a ruler or a known sized object in frame, measuring actual size from a photo isn't very reliable. Only relative classification (like underweight, normal, overweight) tends to work well without that reference.
 
-
-Feline Health Snap: Real Time Cat Body Condition Detection via Mobile ML
-
-CatScan AI: Estimating Feline Body Condition from Images Using Lightweight CNNs
+## Other Title Ideas (for reference)
+PurrScan: A Mobile Application for Cat Weight Condition Assessment Using Computer Vision
